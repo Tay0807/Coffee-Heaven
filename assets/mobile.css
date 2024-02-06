@@ -1,0 +1,104 @@
+@media(max-width:1024px){
+    #container-header-principal{
+        margin: 0px 30px 0px 0px;
+    }
+    
+    .opcoes-alimentos{
+        padding-left: 20px;
+    }
+
+    .container-ofertas-opcoes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #container-ofertas{
+        height: 870px;
+    }
+
+    .opcoes-alimentos{
+        padding:20px;
+    }
+    #container-local{
+        display: grid;
+        height: 1220px;
+        background-image: url(./img/bg-velho-empé.png);
+    }
+
+    #container-shop{
+        height: 1350px;
+    }
+}
+
+@media(max-width:768px){
+    #container-header-principal{
+        margin: 0px 10px 0px 0px;
+    }
+    h1{
+        font-size: 60px;
+    }
+
+    #p-principal{
+        width: 300px;
+    }
+
+    
+    
+}
+
+@media(max-width:500px){
+    #container-header-cabecalho{
+        margin: 0px;
+        background-color: black;
+        height: 100px;
+        box-shadow: rgba(0, 0, 0, 0.405) 6px 2px 2px 2px;
+        justify-content: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    #p-principal{
+        width: 270px;
+    }
+    #container-header-principal{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-ofertas-opcoes{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .p-textos{
+        width: 200px;
+    }
+
+    #container-ofertas{
+        height: 1480px;
+    }
+    #container-local{
+        height: 1700px;
+    }
+
+
+    .container-descricao-variedade{
+        height: 600px;
+    }
+
+    #container-shop{
+        height: 2300px;
+    }
+}
+
+@media (max-width:320px){
+    .p-titulos{
+        font-size: 20px;
+    }
+    .opcoes-alimentos, .container-ofertas-opcoes{
+        padding: 0px;
+    }
+    .container-ofertas-opcoes{
+        padding-top: 40px;
+    }
+    
+}

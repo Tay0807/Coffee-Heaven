@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root{
+    --color--Cinza :  rgba(255, 255, 255, 0.452);
+    --color--Escrita: rgba(0, 0, 0, 0.647);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+    transition: all 2s;
+}
+
+#container-header{
+    background-image: url(./img/background-header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+#container-header-cabecalho{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.a-header{
+    color: var(--color--Cinza);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.a-header:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+#container-header-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin: 0px 170px 0px 0px;
+    text-align: center;
+
+}
+
+#container-info-principal{
+    text-align: center;
+}
+
+h1{
+    color:white ;
+    font-size: 90px;
+    padding: 10px;
+}
+
+#p-principal{
+    width: 600px;
+    text-align: center;
+    color: var(--color--Cinza);
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.bnt-principal{
+    background-color: transparent;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px 15px 10px 15px;
+    color: white !important;
+}
+
+.bnt-principal:hover{
+    transform: scale(1.2);
+}
+
+
+/* Parte 2 */
+
+#container-ofertas{
+    background-color: white;
+    height: 600px;
+}
+
+.p-titulos{
+    font-size: 35px;
+    padding-top: 50px;
+    color: var(--color--Escrita);
+}
+
+.p-textos,.p-opcoes-descricao{
+    padding-top: 10px;
+    color: var(--color--Escrita);
+}
+
+.p-textos{
+    width: 600px;
+    text-align:center;
+    font-size: 20px;
+}
+
+#container-ofertas-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.container-ofertas-opcoes{
+    padding: 40px;
+    display: flex;
+    list-style: none;
+}
+
+.opcoes-alimentos{
+    text-align: center;
+    padding-left: 30px;
+}
+
+.p-opcoes-titulo{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.647);
+    padding: 5px;
+    font-size: 25px;
+}
+
+
+
+/* 3 parte */
+
+#container-local{
+    background-image: url(./img/bg-velho-deitado.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-local-total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div{
+    width: 280px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.img-div:hover{
+    opacity: 0.5;
+}
+
+#um{
+    background-image: url(./img/img-maquina.png);
+}
+
+#dois{
+    background-image: url(./img/img-people.png);
+}
+
+#tres{
+    background-image: url(./img/img-3amg.png);
+}
+
+
+.container-local-informações{
+    margin: 40px;
+}
+
+.p-opcoes-descricao{
+    width:300px ;
+    text-align: center;
+}
+
+/* parte 4 */
+/* 
+#banner{
+    background-image: url(./img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 470px;
+} */
+
+
+/* parte 5 */
+
+.container-descricao-variedade{
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 30px;
+    color: rgb(185, 151, 82);
+}
+
+.p-opcoes-titulo:hover{
+    transform: scale(1.2);
+}
+
+
+/* parte 6 */
+
+
+#container-shop{
+    height: 900px;
+    background-color:  rgba(246, 212, 169, 0.34);
+}
+
+
+
+#container-shop-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-shop{
+    width: 250px;
+    background-color: rgba(246, 212, 169, 0.34);
+    box-shadow: rgba(0, 0, 0, 0.179) 2px 2px 2px 2px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.valor-prod{
+    color:rgb(17, 120, 17);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img-shop:hover{
+    opacity: 0.5;
+}
+
+
+footer{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.endereco{
+    color: white;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.bnt-principal-f{
+    background-color: transparent;
+    border: solid 1px rgb(81, 39, 10);
+    padding: 10px 15px 10px 15px;
+    color:  rgb(81, 39, 10) !important;
+}
+
+.bnt-principal-f:hover{
+    transform: scale(1.2);
+}
+
+.sem-a{
+    text-decoration: none;
+    color: white;
+}
+
+.sem-aa{
+    text-decoration: none;
+    color:rgb(81, 39, 10) ;
+}
+
+.icon{
+    color: white;
+    padding: 10px;
+}
+.icon:hover{
+    transform: scale(1.5);
+    color: rgb(232, 166, 104);
+}
+#icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
